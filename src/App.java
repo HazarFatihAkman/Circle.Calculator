@@ -30,6 +30,6 @@ public class App {
             System.out.print("| Exit (Y/N) : ");
             exit = Objects.equals(sc.next(), "Y");
         }
-
+        sc.close();
     }
 }
